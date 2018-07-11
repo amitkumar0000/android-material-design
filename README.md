@@ -8,7 +8,7 @@ Android provide following feature to build Material design App:
 
 3) New API for custom shadow and animation
 
-    1. Styles and Themes
+    1. _Styles and Themes_
     
         A style is a collection of attributes 
         that specify the appearance for a single View
@@ -56,7 +56,39 @@ Android provide following feature to build Material design App:
           
                 res/values/styles.xml        # themes for all versions
                 res/values-v21/styles.xml    # themes for API level 21+ only
-          
+    
+    2. _Adaptive Icon_
+    
+        2.1 Creating adaptive icons in XML
+        
+             <application
+                            …
+                            android:icon="@mipmap/ic_launcher"
+                            android:roundIcon="@mipmap/ic_launcher_round"
+                            …>
+                        </application>
+            
+            <adaptive-icon>
+                        <background android:drawable="@color/ic_background"/>
+                        <foreground android:drawable="@mipmap/ic_foreground"/>
+                    </adaptive-icon>
+                    
+    3. Floating Action Button
+    
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:src="@drawable/ic_my_icon"
+                android:layout_margin="16dp" />
+                
+    
+                
+                
+            
+            
+        
           
                 
 
