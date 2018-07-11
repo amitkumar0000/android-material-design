@@ -62,5 +62,4 @@ Android provide following feature to build Material design App:
 
                   
                     
-            
-# android-material-design
+    
