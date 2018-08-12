@@ -14,6 +14,7 @@
         >
 
         <TextView
+            android:id="@+id/helloWorldText"
             style="@style/TextTheme2.Large"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,7 +25,9 @@
             android:layout_marginRight="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
             android:text="Hello World!"
+            android:textColor="@color/colorAccent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -69,5 +72,52 @@
             android:src="@mipmap/ic_launcher"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
+
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="184dp"
+            android:layout_height="111dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/helloWorldText">
+
+            <ImageView
+                android:id="@+id/apple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/apple"
+                tools:layout_editor_absoluteX="86dp"
+                tools:layout_editor_absoluteY="374dp"/>
+
+            <ImageView
+                android:id="@+id/taj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/taj"
+                tools:layout_editor_absoluteX="69dp"
+                tools:layout_editor_absoluteY="359dp"/>
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/crossFade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:onClick="onClick"
+            android:text="Cross Fade"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout"/>
     </android.support.constraint.ConstraintLayout>
 </android.support.design.widget.CoordinatorLayout>
