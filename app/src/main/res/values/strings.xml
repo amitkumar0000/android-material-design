@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">android-customview</string>
+    <string name="title_activity_view_animation">ViewAnimation</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="set">Set</string>
+    <string name="translate">Translate</string>
+    <string name="rotate">Rotate</string>
+    <string name="alpha">Alpha</string>
+    <string name="scale">Scale</string>
+    <string name="use_animation_resource">Use Animation Resource</string>
 </resources>

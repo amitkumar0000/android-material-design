@@ -83,6 +83,24 @@ Android provide following feature to build Material design App:
                 android:src="@drawable/ic_my_icon"
                 android:layout_margin="16dp" />
                 
+                
+2) Animation
+    1. Property Animation
+        
+        Duration 
+        
+        Time Interpolation
+        
+        Repeat Count and behaviour
+        
+        Animation Set
+        
+        Frame Refresh Delay
+        
+      Value Animator Object keep track of animation Timing.  
+        
+    
+                
     
                 
                 

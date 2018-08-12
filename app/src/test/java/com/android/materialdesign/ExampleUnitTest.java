@@ -1,4 +1,4 @@
-package com.android.customview;
+package com.android.materialdesign;
 
 import org.junit.Test;
 

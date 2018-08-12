@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="checkbox">CheckBox</string>
+    <string name="set">Set</string>
+    <string name="alpha">Alpha</string>
+    <string name="use_animation_resource">Use Animation Resource</string>
+</resources>

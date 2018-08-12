@@ -1,4 +1,4 @@
-package com.android.customview;
+package com.android.materialdesign;
 
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
