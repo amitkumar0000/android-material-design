@@ -8,4 +8,5 @@
     <string name="alpha">Alpha</string>
     <string name="scale">Scale</string>
     <string name="use_animation_resource">Use Animation Resource</string>
+    <string name="title_activity_property_animation">PropertyAnimation</string>
 </resources>
